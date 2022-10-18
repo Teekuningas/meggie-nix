@@ -249,10 +249,10 @@ self: super: {
   };
   "mne" = super.buildPythonPackage rec {
     pname = "mne";
-    version = "1.1.1";
+    version = "1.2.0";
     src = fetchurl {
-      url = "https://files.pythonhosted.org/packages/ca/5b/490385c4b2484fa4a6a12f19bfd209c3ef84c1b8b02d83528c1daf2b79a4/mne-1.1.1-py3-none-any.whl";
-      sha256 = "1pmi1y9y38jvwg921x69map5gk28fc57c0ll81nn985hsy5s2mxg";
+      url = "https://files.pythonhosted.org/packages/53/fd/d89c4c01763828df96402028327bd5fda0aff0477341d5504e7047521d30/mne-1.2.0-py3-none-any.whl";
+      sha256 = "7PUhGWrhqd7bBEsXqgzKAy6Y+Cs/6NKvhzfeCSKOfYE=";
     };
     format = "wheel";
     doCheck = false;
